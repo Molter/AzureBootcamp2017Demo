@@ -22,7 +22,7 @@ namespace AzureBootcamp2017DemoWebAPI
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.min.css",
-                      "~/Content/font_awesome.min.css",
+                      "~/Content/font-awesome.css",
                       "~/Content/site.css"));
         }
     }

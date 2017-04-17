@@ -1,0 +1,26 @@
+﻿[
+  {
+    "RegionName": "local",
+    "Color": "success"
+  },
+  {
+    "RegionName": "brazil",
+    "Color": "danger"
+  },
+  {
+    "RegionName": "brazil-staging",
+    "Color": "warning"
+  },
+  {
+    "RegionName": "UnitedStates",
+    "Color": "success"
+  },
+  {
+    "RegionName": "default",
+    "Color": "default"
+  },
+  {
+    "RegionName": "UnitedStates-staging",
+    "Color": "info"
+  }
+]
