@@ -3,3 +3,7 @@
 ################################################################################
 
 /AzureBootcamp2017DemoWebAPI/Properties/PublishProfiles
+/AzureBootcamp2017DemoWebAPI/obj
+/AzureBootcamp2017DemoWebAPI/obj/**
+/AzureBootcamp2017DemoWebAPI/bin
+/AzureBootcamp2017DemoWebAPI/bin/**
