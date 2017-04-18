@@ -165,4 +165,5 @@ C:\code\AzureBootcamp2017Demo\AzureBootcamp2017DemoWebAPI\bin\System.Web.WebPage
 C:\code\AzureBootcamp2017Demo\AzureBootcamp2017DemoWebAPI\bin\System.Web.WebPages.Razor.xml
 C:\code\AzureBootcamp2017Demo\AzureBootcamp2017DemoWebAPI\obj\Debug\AzureBootcamp2017DemoWebAPI.dll
 C:\code\AzureBootcamp2017Demo\AzureBootcamp2017DemoWebAPI\obj\Debug\AzureBootcamp2017DemoWebAPI.pdb
-C:\code\AzureBootcamp2017Demo\AzureBootcamp2017DemoWebAPI\obj\Debug\AzureBootcamp2017DemoWebAPI.csprojResolveAssemblyReference.cache
+C:\code\AzureBootcamp2017Demo\AzureBootcamp2017DemoWebAPI\bin\Microsoft.ApplicationInsights.TraceListener.dll
+C:\code\AzureBootcamp2017Demo\AzureBootcamp2017DemoWebAPI\bin\Microsoft.ApplicationInsights.TraceListener.xml

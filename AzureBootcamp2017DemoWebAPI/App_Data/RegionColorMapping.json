@@ -12,7 +12,7 @@
     "Color": "warning"
   },
   {
-    "RegionName": "UnitedStates",
+    "RegionName": "unitedstates",
     "Color": "success"
   },
   {
@@ -20,7 +20,7 @@
     "Color": "default"
   },
   {
-    "RegionName": "UnitedStates-staging",
+    "RegionName": "unitedstates-staging",
     "Color": "info"
   }
 ]

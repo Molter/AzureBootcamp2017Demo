@@ -79,7 +79,7 @@ namespace AzureBootcamp2017DemoWebAPI.Controllers
         {
             if(cpuCounter == null)
             {
-                cpuCounter = new PerformanceCounter("Processor", "% Processor Time", "_Total");
+                cpuCounter = new PerformanceCounter("Processor", "% Processor Time");
             }
             return cpuCounter.NextValue();
         }
@@ -113,7 +113,12 @@ namespace AzureBootcamp2017DemoWebAPI.Controllers
         public JsonResult increaseCPU()
         {
             keepRunnig = true;
-            for (int i = 0; i < Environment.ProcessorCount; i++)
+            int threads = Environment.ProcessorCount * Environment.ProcessorCount;
+            if (threads <= 4)
+            {
+                threads = 8;
+            }
+            for (int i = 0; i < threads; i++)
             {
                 ThreadPool.QueueUserWorkItem(new WaitCallback(ThreadProc));
             }
@@ -132,16 +137,21 @@ namespace AzureBootcamp2017DemoWebAPI.Controllers
 
         static void ThreadProc(Object stateInfo)
         {
+            List<int> list = new List<int>();
             while (keepRunnig)
             {
-                for (int i = 0; i < 999; i++)
+                for (int i = 0; i < 99999; i++)
                 {
                     if (!keepRunnig)
                     {
                         break;
                     }
 
-                    Fibonacci(i);
+                    int fb = Fibonacci(i) + Fibonacci(i);
+                    int fb2 = Fibonacci(i) + Fibonacci(i);
+                    list.Add(fb);
+                    list.Add(fb2);
+
                 }
             }
         }
